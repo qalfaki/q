@@ -25,10 +25,10 @@ const Resume = (props)=> {
             						<a href="mailto:qusai.alfaki@gmail.com" rel="noopener noreferrer">qusai.alfaki@gmail.com</a>
           						</div>
           						<div className="cv-header-meta-row">
-            						+254 726348332
+            						+254-726348332
           						</div>
           						<div className="cv-header-meta-row">
-            						<a href="qalfaki.github.io" rel="noopener noreferrer">qalfaki.github.io</a>
+            						<a href="http://qalfaki.github.io" rel="noopener noreferrer">qalfaki.github.io</a>
           						</div>
         					</div>
       					</div>
@@ -81,7 +81,6 @@ const Resume = (props)=> {
                     <h3 className="cv-section-title">Skills</h3>
                     <div className="cv-section-content cv-section-content--indented">
                         <ul className="cv-tech-tags tech-tags">
-                                            <li><a rel="nofollow" target="_blank">Elixir</a></li>
                                             <li><a rel="nofollow" target="_blank">TypeScript</a></li>
                                             <li><a rel="nofollow" target="_blank">SQL</a></li>
                                             <li><a rel="nofollow" target="_blank">JavaScript</a></li>

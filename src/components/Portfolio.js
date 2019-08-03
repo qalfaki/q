@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import tsunami from '../assets/imgs/Tsunami.png'
 import elitedesigns from '../assets/imgs/Elite.png'
 import kibanda from '../assets/imgs/kibanda.png'
+import lynkImg from '../assets/imgs/lynk.png';
 const Portfolio = ()=> {
     setTimeout(()=>{document.getElementsByClassName('App')[0].classList.remove('hidden')}, 0);
     return (
@@ -32,7 +33,7 @@ const Portfolio = ()=> {
                         </div>
                         <div className="timeline_element-contents">
                             <div className="project-text">
-                                <a href="#" className="project-link">
+                                <a href="https://lynk.co.ke" className="project-link">
                                     <div className="project-title">High speed search engine</div>
                                         <div className="project-subtitle">Experience a lifetime adventure. Save up on your holiday</div>
                                 </a>
@@ -48,7 +49,6 @@ const Portfolio = ()=> {
                                                 activities while or before the travelling.</li>
                                     </ul>
                                 </div>
-                                <a href="lynk.co.ke" className="project-readmore button button-red" rel="noopener" target="_blank">view details</a>
                                 <div className="project-technologies">
                                     <div  className="technologies-title">Technologies</div>
                                         <ul className="tech-tags">
@@ -62,7 +62,7 @@ const Portfolio = ()=> {
                                   	</div>
                             	</div>
                             	<div className="project-image"> <a href="lynk.co.ke">
-                                	<img src="/assets/imgs/home.jpg" alt="lynk.co.ke"/>
+                                	<img src={lynkImg} alt=""/>
                               	</a>
                             </div>
                         </div>
