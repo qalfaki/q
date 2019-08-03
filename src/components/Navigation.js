@@ -31,7 +31,6 @@ const Navigation = ()=> {
                   </ul>
                   <ul className="side-nav">
                       <li className=""><Link to="/resume">resume</Link></li>
-                      <li className=""><Link to='/talks'>My talks</Link></li>
                       <li><a href="https://medium.com/@qusai.alfaki" target="_blank">Personal blog</a></li>
                   </ul>
             </div>

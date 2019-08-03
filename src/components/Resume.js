@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom'
 import avatarImgSrc from '../assets/imgs/avatar.5.png'
 
 const Resume = (props)=> {
@@ -10,7 +9,7 @@ const Resume = (props)=> {
   				<div className="cv-page-inner">
     				<div className="cv-section cv-header">
       					<div className="cv-header-avatar">
-        					<img src={avatarImgSrc}/>
+        					<img src={avatarImgSrc} alt="N/A"/>
       					</div>
       					<div className="cv-header-text">
         					<h1 className="cv-header-name">Qusai Alfaki</h1>
@@ -23,13 +22,13 @@ const Resume = (props)=> {
       					<div className="cv-header-meta">
         					<div className="cv-header-meta-right">
           						<div className="cv-header-meta-row">
-            						<a href="mailto:qusai.alfaki@gmail.com">qusai.alfaki@gmail.com</a>
+            						<a href="mailto:qusai.alfaki@gmail.com" rel="noopener noreferrer">qusai.alfaki@gmail.com</a>
           						</div>
           						<div className="cv-header-meta-row">
             						+254 726348332
           						</div>
           						<div className="cv-header-meta-row">
-            						<a href="qalfaki.github.io">qalfaki.github.io</a>
+            						<a href="qalfaki.github.io" rel="noopener noreferrer">qalfaki.github.io</a>
           						</div>
         					</div>
       					</div>
@@ -42,7 +41,7 @@ const Resume = (props)=> {
             						        <div className="cv-timeline-side">
                                     <div className="cv-timeline-company">Lynk</div>
                                     <div className="cv-timeline-date">09/2016 - current</div>
-                                    <a href="https://lynk.co.ke">Lynk.co.ke</a>
+                                    <a href="https://lynk.co.ke" rel="noopener noreferrer">Lynk.co.ke</a>
                                 </div>
             						        <div className="cv-timeline-body">
                                     <h4 className="cv-timeline-position">Full-stack Web Developer</h4>
@@ -63,7 +62,7 @@ const Resume = (props)=> {
                                 <div className="cv-timeline-side">
                                     <div className="cv-timeline-company">Moringa school</div>
                                     <div className="cv-timeline-date">09/2016 - 2016</div>
-                                    <a href="https://moringaschool.com/">Moringa school</a>
+                                    <a href="https://moringaschool.com/" rel="noopener noreferrer">Moringa school</a>
                                 </div>
                                 <div className="cv-timeline-body">
                                     <h4 className="cv-timeline-position">mobile & Web Developer</h4>
@@ -121,13 +120,13 @@ const Resume = (props)=> {
                                             <div className="cv-timeline-side">
                                               <div className="cv-timeline-company">Moringa school</div>
                                               <div className="cv-timeline-date">2016 - 2016</div>
-                                              <a href="https://moringaschool.com/">Moringa school</a>
+                                              <a href="https://moringaschool.com/" rel="noopener noreferrer">Moringa school</a>
                                             </div>
                                             <div className="cv-timeline-body">
                                               <div className="cv-timeline-position">Web development</div>
                                               <ul>
                                                 <li>
-                                                    deep dive into web development using latest technologies, <a href="https://www.postgresql.org/" target="_blank">Postgresql</a>, <a href="https://www.djangoproject.com/" target="_blank">Django</a>, <a href="https://www.sqlalchemy.org/" target="_blank">sqlAlchemy</a> agile methodology (scrum), version control (git), UX/UI research, teamwork and colaboration                                                </li>
+                                                    deep dive into web development using latest technologies, <a rel="noopener noreferrer" href="https://www.postgresql.org/" target="_blank">Postgresql</a>, <a rel="noopener noreferrer" href="https://www.djangoproject.com/" target="_blank">Django</a>, <a rel="noopener noreferrer" href="https://www.sqlalchemy.org/" target="_blank">sqlAlchemy</a> agile methodology (scrum), version control (git), UX/UI research, teamwork and colaboration                                                </li>
                                               </ul>
                                             </div>
                                           </div>
@@ -140,7 +139,7 @@ const Resume = (props)=> {
                                             <div className="cv-timeline-side">
                                               <div className="cv-timeline-company">Atid college</div>
                                               <div className="cv-timeline-date">2013 - 2013</div>
-                                              <a href="https://www.microsoft.com/en-us/learning/certification-overview.aspx">Microsoft</a>
+                                              <a rel="noopener noreferrer" href="https://www.microsoft.com/en-us/learning/certification-overview.aspx">Microsoft</a>
                                             </div>
                                             <div className="cv-timeline-body">
                                               <div className="cv-timeline-position">Microsoft MCTS certified</div>
@@ -158,7 +157,7 @@ const Resume = (props)=> {
                                             <div className="cv-timeline-side">
                                               <div className="cv-timeline-company">Kfar Hayarok college of Technology</div>
                                               <div className="cv-timeline-date">2010 - 2012</div>
-                                              <a href="http://www.kfaryarok.org.il/en">Kfar Hayarok college</a>
+                                              <a rel="noopener noreferrer" href="http://www.kfaryarok.org.il/en">Kfar Hayarok college</a>
                                             </div>
                                             <div className="cv-timeline-body">
                                               <div className="cv-timeline-position">Diploma in Michanical Engineering</div>
@@ -175,7 +174,7 @@ const Resume = (props)=> {
                                       <h3 className="cv-section-title">Other perks</h3>
                                       <div className="cv-section-content cv-section-content--indented">
                                         <ul>
-                                          <li>Volunteered as a photographer in <a href="https://issuu.com/refugeevoice/docs/the.refugee.voice" target="_blank">"The refugee voice"</a> news paper Tel aviv Israel.</li>
+                                          <li>Volunteered as a photographer in <a rel="noopener noreferrer" href="https://issuu.com/refugeevoice/docs/the.refugee.voice" target="_blank">"The refugee voice"</a> news paper Tel aviv Israel.</li>
                                           <li>Received "The Best Graduate" award upon graduating the high school, thanks to multiple achievements in
                                             mathematics, history and literature.</li>
                                           <li>In his free time, likes to draw,
