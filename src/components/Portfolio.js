@@ -1,9 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
-import tsunami from '../assets/imgs/Tsunami.png'
-import elitedesigns from '../assets/imgs/Elite.png'
-import kibanda from '../assets/imgs/kibanda.png'
+import { Link } from 'react-router-dom';
+import tsunami from '../assets/imgs/Tsunami.png';
+import elitedesigns from '../assets/imgs/Elite.png';
+import kibanda from '../assets/imgs/kibanda.png';
 import lynkImg from '../assets/imgs/lynk.png';
+import angerComics from '../assets/imgs/angerCmics.png';
+
 const Portfolio = ()=> {
     setTimeout(()=>{document.getElementsByClassName('App')[0].classList.remove('hidden')}, 0);
     return (
@@ -34,12 +36,10 @@ const Portfolio = ()=> {
                         <div className="timeline_element-contents">
                             <div className="project-text">
                                 <a href="https://lynk.co.ke" className="project-link">
-                                    <div className="project-title">High speed search engine</div>
-                                        <div className="project-subtitle">Experience a lifetime adventure. Save up on your holiday</div>
+                                    <div className="project-title">filter/search API</div>
+                                        <div className="project-subtitle">very efficient search API, that look through large volums of data based on search query</div>
                                 </a>
-                                <div className="project-description"><p><strong>Tripsomnia is a web platform
-                                        that allows to book and sell local tours and tourist attractions
-                                    all over the world. It serves both as:</strong></p>
+                                <div className="project-description"><p><strong>the API designed to expect high traffic, and follows database speed optimizing querys best practices and convencions </strong></p>
 
                                     <ul>
                                           <li>a SaaS platform for tour operators and activity providers, to
@@ -52,17 +52,16 @@ const Portfolio = ()=> {
                                 <div className="project-technologies">
                                     <div  className="technologies-title">Technologies</div>
                                         <ul className="tech-tags">
-                                            <li><a href="http://rubyonrails.org/" rel="nofollow" rel="noopener" target="_blank">Ruby on Rails</a></li>
-                                            <li><a href="https://reactjs.org/" rel="nofollow" rel="noopener" target="_blank">React</a></li>
-                                            <li><a href="https://redux.js.org/" rel="nofollow" rel="noopener" target="_blank">Redux</a></li>
-                                            <li><a href="http://elasticsearch.org/" rel="nofollow" rel="noopener" target="_blank">ElasticSearch</a></li>
-                                            <li><a href="http://redis.io/" rel="nofollow" rel="noopener" target="_blank">Redis</a></li>
-                                            <li><a href="https://www.ansible.com/" rel="nofollow" rel="noopener" target="_blank">Ansible</a></li>                                                                          
+                                            <li><a href="http://rubyonrails.org/" rel="nofollow" rel="noopener" target="_blank">vuejs</a></li>
+                                            <li><a href="https://reactjs.org/" rel="nofollow" rel="noopener" target="_blank">vuex</a></li>
+                                            <li><a href="https://reactjs.org/" rel="nofollow" rel="noopener" target="_blank">bootstrap</a></li>
+                                            <li><a href="http://elasticsearch.org/" rel="nofollow" rel="noopener" target="_blank">postgresql</a></li>
+                                            <li><a href="http://redis.io/" rel="nofollow" rel="noopener" target="_blank">python</a></li>                                                                          
                                     	</ul>
                                   	</div>
                             	</div>
                             	<div className="project-image"> <a href="lynk.co.ke">
-                                	<img src={lynkImg} alt=""/>
+                                	<img src={lynkImg} alt="N/A"/>
                               	</a>
                             </div>
                         </div>
@@ -79,28 +78,21 @@ const Portfolio = ()=> {
                                 </a>
                                 <div
                                     className="project-description"><p><strong>
-                                        demonstration of properly structured
-                                        site for better SEO & UI/UX.
-                                        Web platform Interior design agancy:</strong></p>
+                                    design agency web application, includes contact form and portfolio section:</strong></p>
                                     <ul>
                                           <li>
                                                 Responsive web application
                                                 (jQuery, fundation zurb)
                                           </li>
-                                            <li>a platform for end-customers to
-                                                book festival tickets and
-                                                learn about the various activities while or before the travelling.</li>
                                     </ul>
                                 </div>
-                                <a href="lynk.co.ke"
-                                   className="project-readmore button button-red"
-                                   rel="noopener" target="_blank">view details</a>
-
                                 <div className="project-technologies">
                                     <div  className="technologies-title">Technologies</div>
                                         <ul className="tech-tags">
                                             <li><a href="https://foundation.zurb.com/" rel="nofollow" rel="noopener" target="_blank">Foundation zurb</a></li>
                                             <li><a href="https://jquery.com/" rel="nofollow" rel="noopener" target="_blank">jQuery</a></li>
+                                            <li><a href="https://cloud.google.com/maps-platform/" rel="nofollow" rel="noopener" target="_blank">google maps api</a></li>
+
                                     </ul>
                                   </div>
                             </div>
@@ -120,37 +112,29 @@ const Portfolio = ()=> {
                             <div className="project-text">
                                 <a href="#" className="project-link">
                                     <div className="project-title">Kibanda</div>
-                                        <div className="project-subtitle">Mobile app for finding nearby mini-resturants</div>
+                                        <div className="project-subtitle">Mobile app for finding nearby restaurants (kibanda means mini restaurant or cafe in the local langauge)</div>
                                 </a>
                                 <div
                                     className="project-description"><p><strong>
-                                        demonstration of properly structured
-                                        site for better SEO & UI/UX.
-                                        Web platform Interior design agancy:</strong></p>
+                                        restaurants version of the app, </strong></p>
                                     <ul>
-                                          <li>
-                                                Responsive web application
-                                                (jQuery, fundation zurb)
-                                          </li>
-                                            <li>a platform for end-customers to
-                                                book festival tickets and
-                                                learn about the various activities while or before the travelling.</li>
+                                        <li>the restaurants owners have the ability to update the menu add spcial dishes, discounds and offers</li>
+                                        <li>end-customers will be able to easly locat affordable nearby restaurants view the menu and .</li>
                                     </ul>
                                 </div>
-                                <a href="lynk.co.ke"
-                                   className="project-readmore button button-red"
-                                   rel="noopener" target="_blank">view details</a>
 
                                 <div className="project-technologies">
                                     <div  className="technologies-title">Technologies</div>
                                         <ul className="tech-tags">
-                                            <li><a href="https://foundation.zurb.com/" rel="nofollow" rel="noopener" target="_blank">Foundation zurb</a></li>
-                                            <li><a href="https://jquery.com/" rel="nofollow" rel="noopener" target="_blank">jQuery</a></li>
+                                            <li><a rel="nofollow" rel="noopener" target="_blank">UI/ux</a></li>
+                                            <li><a href="https://sqlite.org/index.html" rel="nofollow" rel="noopener" target="_blank">sqllit3</a></li>
+                                            <li><a rel="nofollow" rel="noopener" target="_blank">android</a></li>
+                                            <li><a href="https://firebase.google.com/" rel="nofollow" rel="noopener" target="_blank">firebase</a></li>
                                     </ul>
                                   </div>
                             </div>
                             <div className="project-image">
-                                <a href="https://yvonnendutaw.github.io/Elite-Designs/" rel="noopener" target="_blank">
+                                <a href="http://bit.ly/2a0XhSr" rel="noopener" target="_blank">
                                     <img src={kibanda} alt="N/A"/>
                                 </a>
                             </div>
@@ -182,15 +166,13 @@ const Portfolio = ()=> {
                                                 learn about the various activities while or before the travelling.</li>
                                     </ul>
                                 </div>
-                                <a href="lynk.co.ke"
-                                   className="project-readmore button button-red"
-                                   rel="noopener" target="_blank">view details</a>
 
                                 <div className="project-technologies">
                                     <div  className="technologies-title">Technologies</div>
                                         <ul className="tech-tags">
                                             <li><a href="https://foundation.zurb.com/" rel="nofollow" rel="noopener" target="_blank">Foundation zurb</a></li>
                                             <li><a href="https://jquery.com/" rel="nofollow" rel="noopener" target="_blank">jQuery</a></li>
+                                            <li><a href="https://cloud.google.com/maps-platform/" rel="nofollow" rel="noopener" target="_blank">google maps api</a></li>
                                     </ul>
                                   </div>
                             </div>
@@ -201,7 +183,44 @@ const Portfolio = ()=> {
                             </div>
                         </div>
                     </li>
+                    <li className="timeline_element project">
+                        <div className="timeline_element-date">
+                            <time className="timeline_element-date-text">2016-2017</time>
+                        </div>
+                        <div className="timeline_element-contents">
+                            <div className="project-text">
+                                <a href="#" className="project-link">
+                                    <div className="project-title">Anger comics</div>
+                                        <div className="project-subtitle">fun mobile application</div>
+                                </a>
+                                <div
+                                    className="project-description"><p><strong>
+                                    fragments implementation, the app provides information about the funny characters we see all over the social media and memes
+                                    it also give information  about character names and origins
+                                        </strong></p>
+                                    <ul>
+                                        <li>the application consist of one activity and many fragments each fragment represent a character, think of characters as different contexts, separation of concerns</li>
+                                        <li>the application consumes a public API, that provides the characters information</li>
+                                    </ul>
+                                </div>
 
+                                <div className="project-technologies">
+                                    <div  className="technologies-title">Technologies</div>
+                                        <ul className="tech-tags">
+                                          <li><a rel="nofollow" rel="noopener" target="_blank">UI/ux</a></li>
+                                            <li><a href="https://sqlite.org/index.html" rel="nofollow" rel="noopener" target="_blank">sqllit3</a></li>
+                                            <li><a rel="nofollow" rel="noopener" target="_blank">android fragments</a></li>
+                                            <li><a rel="nofollow" rel="noopener" target="_blank">android</a></li>
+                                       </ul>
+                                  </div>
+                            </div>
+                            <div className="project-image">
+                                <a rel="nofollow">
+                                    <img src={angerComics} alt="N/A"/>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>

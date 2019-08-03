@@ -11,7 +11,7 @@ const Skills = ()=> {
     </p>
     <p>
       <strong>I have maintained, developed and launched <Link replace to="/portfolio" className="nocolor">multiple projects</Link> from scratch</strong>, carrying the development of its' back-end and front-end codebases.</p>
-    <p>My current toolset includes <strong>Elixir Language & Phoenix Framework</strong> flask, sqlalchemy, Django, <strong>vuejs/vuex </strong>, Redux, backbonejs, Docker and all the other various frameworks, libraries and
+    <p>My current toolset includes <strong>python & Django</strong> flask, sqlalchemy, Django, <strong>vuejs/vuex </strong>, Redux, backbonejs, Docker and all the other various frameworks, libraries and
     technologies related to them.</p>
 
     <p><strong>I can help you with all the sides of your project:</strong></p>
@@ -64,14 +64,12 @@ const Skills = ()=> {
   </h2>
 
   <p>
-      <strong>In back-end development, current stack involves <a href="http://elixir-lang.org/"
-        rel="nofollow">Elixir</a> and <a href="http://phoenixframework.org/" rel="nofollow">Phoenix
-        Framework</a></strong>, and alternatively <a href="https://www.python.org" rel="nofollow">Python</a>, <a href="https://golang.org" rel="nofollow">Go </a> or 
+      <strong>In back-end development, current stack involves <a href="https://www.python.org/" rel="nofollow">Python</a> and <a href="https://www.djangoproject.com/" rel="nofollow">Django</a></strong>, and alternatively <a href="https://golang.org" rel="nofollow">Go </a> or 
         <a href="http://nodejs.org/" rel="nofollow"> NodeJS</a>.
   </p>
   <p>Nearly every app I have launched in the past had the back-end done also by me. In order to improve the development
-    speed, performance and reliability, I have changed languages and frameworks already multiple times, from PHP to Ruby
-    and now to Elixir; and configured servers using just the shell, then Chef/Ansible, and now Docker and Kubernetes.
+    speed, performance and reliability, I have changed languages and frameworks already multiple times, from Java to Python
+    and now to JavaScript & Go; and configured servers using just the shell, Docker and Kubernetes.
   </p>
   <p>
     The lessons I learned while doing all these apps will be useful for me forever, no
@@ -83,7 +81,7 @@ const Skills = ()=> {
   </p>
 
   <ul>
-      <li>lead development of backends in Elixir/Ruby,</li>
+      <li>lead development of backends in python</li>
       <li>splitting the back-end into separate domains and microservices,</li>
       <li>cooperation with APIs, remote data synchronizations, cloud servers, asynchronous workers,</li>
       <li>using different types of databases (like <a href="http://www.postgresql.org/" rel="nofollow">PostgreSQL</a>, <a
@@ -116,7 +114,6 @@ const Skills = ()=> {
       <li>consistency in design and typography;</li>
       <li>Search Engine Optimization;</li>
       <li>launching, deployment and monitoring the app after the release;</li>
-      <li>recruiting, onboarding and mentoring team members;</li>
       <li>in cases where a good Project Manager was missing, fulfilling his role, in order to save the project from losing time on unneeded things.</li>
   </ul>
 

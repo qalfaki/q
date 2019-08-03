@@ -100,7 +100,6 @@ const Resume = (props)=> {
                                             <li><a rel="nofollow" target="_blank">RabbitMQ</a></li>
                                             <li><a rel="nofollow" target="_blank">DDD</a></li>
                                             <li><a rel="nofollow" target="_blank">Microservices</a></li>
-                                            <li><a rel="nofollow" target="_blank">Phoenix Framework</a></li>
                                             <li><a rel="nofollow" target="_blank">Algorithms</a></li>
                                             <li><a rel="nofollow" target="_blank">Android</a></li>
                                             <li><a rel="nofollow" target="_blank">java</a></li>

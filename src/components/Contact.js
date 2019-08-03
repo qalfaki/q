@@ -21,7 +21,7 @@ const Contact = ()=> {
                 		<a href="https://www.linkedin.com/in/qalfaki"><i className="icon fa fa-linkedin"></i> Qusai</a>
               		</dd>
             		<dt>Github:</dt>
-            		<dd> <a href="http://github.com/512B"><i className="icon fa fa-github"></i> 512B</a> </dd>
+            		<dd> <a href="http://github.com/qalfaki"><i className="icon fa fa-github"></i> qalfaki</a> </dd>
             		<dt>Twitter:</dt>
             		<dd> <a href="https://twitter.com/QAlfaki"><i className="icon fa fa-twitter"></i> @QAlfaki</a>
             		</dd></dl>
