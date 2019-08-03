@@ -1,15 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Sidebar from './components/Sidebar'
+import {BrowserRouter, Route} from 'react-router-dom'
+import Sidebar from './components/Sidebar';
+import routes from './routes';
+const resume = routes.pop()
 
-
-function App() {
-  return (
-    <div className="App">
-      <Sidebar />
-    </div>
-  );
-}
+const App = (props) =>{
+        return (
+            <BrowserRouter>
+                <Route {...resume} key={9082}/>
+                <div className='App'>
+                    <Sidebar/>
+                    <main className="site-main">
+                        <div className="site-main-inner">
+                            { routes.map((route, key) => <Route {...route} key={key}/>) }
+                        </div>
+                    </main>
+                </div>
+            </BrowserRouter>
+            );
+    }
 
 export default App;

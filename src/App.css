@@ -3084,7 +3084,8 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 }
 
 .main-navigation .navigation-extend-bar .navigation-extend-button {
-    width: 50%
+    width: 50%;
+    cursor: pointer;
 }
 
 .main-navigation ul {
@@ -3190,7 +3191,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
     content: " ";
     display: block;
     width: 25%;
-    background: url(/assets/imgs/home.jpg) top center no-repeat #bababa;
+    background: url(./assets/imgs/home.jpg) top center no-repeat #bababa;
     background-size: cover
 }
 
@@ -3458,7 +3459,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
     left: 0;
     right: 0;
     z-index: 1;
-    background: url(/assets/imgs/home.jpg) top center no-repeat #bababa;
+    background: url(./assets/imgs/home.jpg) top center no-repeat #bababa;
     background-size: cover;
     -webkit-font-smoothing: antialiased;
     color: #fff;
@@ -3573,15 +3574,15 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 }
 
 @media screen and (max-width: 1023px) {
-    body.parent-home .site-sidebar {
+    aside.site-sidebar {
         padding-top:0
     }
 
-    body.parent-home .site-sidebar .person {
+    aside.site-sidebar .person {
         display: none
     }
 
-    body.parent-home .site-sidebar .main-navigation {
+    aside.site-sidebar .main-navigation {
         margin-top: 0
     }
 }
@@ -3906,7 +3907,7 @@ body.cv {
     width: 920px;
     padding: 80px 80px 60px;
     margin: 80px auto;
-    background-color: #fff;
+    background-color: #E9EBDB;
     box-shadow: 2px 2px 1px #606060
 }
 

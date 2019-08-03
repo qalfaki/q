@@ -1,12 +1,11 @@
 import React from 'react';
-import Avatar from './Avatar'
 
 const Sidebar = ()=> {
+	setTimeout(()=>{document.getElementsByClassName('App')[0].classList.remove('hidden')}, 0);
     return (
-        <>
-        <div> Hello </div>
-        <Avatar />
-        </>
+    	<div className="main-section talk-section">
+            <h2>coming soon...</h2>
+        </div>
     )
 }
 
