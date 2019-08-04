@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/q/static/css/main.950ee8a8.chunk.css",
+    "main.js": "/q/static/js/main.a23bf9ee.chunk.js",
+    "main.js.map": "/q/static/js/main.a23bf9ee.chunk.js.map",
+    "runtime~main.js": "/q/static/js/runtime~main.8dce1c06.js",
+    "runtime~main.js.map": "/q/static/js/runtime~main.8dce1c06.js.map",
+    "static/js/2.43af06d2.chunk.js": "/q/static/js/2.43af06d2.chunk.js",
+    "static/js/2.43af06d2.chunk.js.map": "/q/static/js/2.43af06d2.chunk.js.map",
+    "index.html": "/q/index.html",
+    "precache-manifest.47e1f799b034684db5c173ba40a8fd07.js": "/q/precache-manifest.47e1f799b034684db5c173ba40a8fd07.js",
+    "service-worker.js": "/q/service-worker.js",
+    "static/css/main.950ee8a8.chunk.css.map": "/q/static/css/main.950ee8a8.chunk.css.map",
+    "static/media/Elite.png": "/q/static/media/Elite.d187f4d0.png",
+    "static/media/Tsunami.png": "/q/static/media/Tsunami.c31a5e66.png",
+    "static/media/angerCmics.png": "/q/static/media/angerCmics.95002a3a.png",
+    "static/media/avatar.5.png": "/q/static/media/avatar.5.034ad60d.png",
+    "static/media/App.css": "/q/static/media/home.7d65e78a.jpg",
+    "static/media/kibanda.png": "/q/static/media/kibanda.0abb5c9a.png",
+    "static/media/lynk.png": "/q/static/media/lynk.971dd414.png"
+  }
+}
