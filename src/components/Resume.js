@@ -1,5 +1,5 @@
 import React from "react";
-import avatarImgSrc from '../assets/imgs/avatar.5.png'
+import avatarImgSrc from '../assets/imgs/avatar.5.jpg'
 
 const Resume = (props)=> {
     setTimeout(()=>{document.getElementsByClassName('App')[0].classList.add('hidden')}, 0)
@@ -15,7 +15,7 @@ const Resume = (props)=> {
         					<h1 className="cv-header-name">Qusai Alfaki</h1>
         					<h2 className="cv-header-subname">Full-stack Web Developer</h2>
         					<div className="cv-header-lead">
-        						Self-motivated software developer with over four years of professional experience in coding, launching and teaching others.<br/><br/>
+        						Self-motivated software developer with over three years of professional experience in coding, launching and teaching others.<br/><br/>
           						<strong>Currently available.</strong><br/>Willing to relocate, or can work remotely.
        						 </div>
       					</div>
@@ -98,18 +98,10 @@ const Resume = (props)=> {
                                             <li><a rel="nofollow" target="_blank">Celery</a></li>
                                             <li><a rel="nofollow" target="_blank">Redis</a></li>
                                             <li><a rel="nofollow" target="_blank">RabbitMQ</a></li>
-                                            <li><a rel="nofollow" target="_blank">DDD</a></li>
-                                            <li><a rel="nofollow" target="_blank">Microservices</a></li>
-                                            <li><a rel="nofollow" target="_blank">Algorithms</a></li>
-                                            <li><a rel="nofollow" target="_blank">Android</a></li>
-                                            <li><a rel="nofollow" target="_blank">java</a></li>
-                                            <li><a rel="nofollow" target="_blank">Unit / E2E Testing</a></li>
-                                            <li><a rel="nofollow" target="_blank">Project estimation</a></li>
                                             <li><a rel="nofollow" target="_blank">Mentor &amp; Leader</a></li>
                                         </ul>
                                       </div>
                                     </div>
-
                                     <div className="cv-section">
                                       <h3 className="cv-section-title">Education</h3>
                                       <div className="cv-section-content">
@@ -167,7 +159,6 @@ const Resume = (props)=> {
                                         </div>
                                       </div>
                                     </div>
-
                                     <div className="cv-section">
                                       <h3 className="cv-section-title">Other perks</h3>
                                       <div className="cv-section-content cv-section-content--indented">
