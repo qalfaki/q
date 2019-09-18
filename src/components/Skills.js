@@ -53,7 +53,7 @@ const Skills = ()=> {
       <li>good sense of design and UX,</li>
       <li>huge experience in almost all of the JS ecosystems, by having used in the past many libraries like Next.js, React,
       Redux, Redux-Observable,
-      RxJS, Backbone, jQuery, Lodash/Underscore and many else.
+      RxJS, Backbone, jQuery, Lodash/Underscore and many others.
     </li>
   </ul>
 

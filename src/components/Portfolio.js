@@ -4,6 +4,7 @@ import tsunami from '../assets/imgs/Tsunami.png';
 import elitedesigns from '../assets/imgs/Elite.png';
 import kibanda from '../assets/imgs/kibanda.png';
 import lynkImg from '../assets/imgs/lynk.png';
+import qube from '../assets/imgs/qube.png';
 import angerComics from '../assets/imgs/angerCmics.png';
 
 const Portfolio = ()=> {
@@ -31,6 +32,41 @@ const Portfolio = ()=> {
                     </li>
                     <li className="timeline_element project">
                         <div className="timeline_element-date">
+                            <time className="timeline_element-date-text">2019-2019</time>
+                        </div>
+                        <div className="timeline_element-contents">
+                            <div className="project-text">
+                                <a href="https://qube-d0bc0.firebaseapp.com" className="project-link">
+                                    <div className="project-title">Qube notes</div>
+                                        <div className="project-subtitle">slick and user friendly web application for taking notes/to-do lists</div>
+                                </a>
+                                <div className="project-description"><p><strong>Designed using Figma with simplicity & minimalism in mind</strong></p>
+
+                                    <ul>
+                                        <li>UI/UX built using react functional components, builtin hooks and custom hooks for relatively more complex functionaility like validation etc.</li>
+                                        <li>Integrates standard key bindings eg. <code>CTRL+s</code> for saving</li>
+                                        <li>full support for user authentication using firebase auth API</li>
+
+                                    </ul>
+                                </div>
+                                <div className="project-technologies">
+                                    <div  className="technologies-title">Technologies</div>
+                                        <ul className="tech-tags">
+                                            <li><a href="https://reactjs.org/" rel="nofollow" rel="noopener" target="_blank">React</a></li>
+                                            <li><a href="https://reactjs.org/docs/hooks-reference.html" rel="nofollow" rel="noopener" target="_blank">React hooks</a></li>  
+                                            <li><a href="https://www.figma.com/files" rel="nofollow" rel="noopener" target="_blank">Figma</a></li>
+                                            <li><a href="https://firebase.google.com/" rel="nofollow" rel="noopener" target="_blank">firebase</a></li>                                                        
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="project-image"> <a href="https://qube-d0bc0.firebaseapp.com">
+                                    <img src={qube} alt="N/A"/>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li className="timeline_element project">
+                        <div className="timeline_element-date">
                             <time className="timeline_element-date-text">2018-2019</time>
                         </div>
                         <div className="timeline_element-contents">
@@ -42,21 +78,17 @@ const Portfolio = ()=> {
                                 <div className="project-description"><p><strong>the API designed to expect high traffic, and follows database speed optimizing querys best practices and convencions </strong></p>
 
                                     <ul>
-                                          <li>a SaaS platform for tour operators and activity providers, to
-                                              manage their offers, customers, orders, and agents
-                                              cooperation,</li>
-                                            <li>a marketplace for end-customers to book the local tours and
-                                                activities while or before the travelling.</li>
+                                          <li>an online platform that partners with Kenyan artisans to showcase and promote their products and services</li>
                                     </ul>
                                 </div>
                                 <div className="project-technologies">
                                     <div  className="technologies-title">Technologies</div>
                                         <ul className="tech-tags">
-                                            <li><a href="http://rubyonrails.org/" rel="nofollow" rel="noopener" target="_blank">vuejs</a></li>
-                                            <li><a href="https://reactjs.org/" rel="nofollow" rel="noopener" target="_blank">vuex</a></li>
-                                            <li><a href="https://reactjs.org/" rel="nofollow" rel="noopener" target="_blank">bootstrap</a></li>
-                                            <li><a href="http://elasticsearch.org/" rel="nofollow" rel="noopener" target="_blank">postgresql</a></li>
-                                            <li><a href="http://redis.io/" rel="nofollow" rel="noopener" target="_blank">python</a></li>                                                                          
+                                            <li><a href="https://vuejs.org" rel="nofollow" rel="noopener" target="_blank">vuejs</a></li>
+                                            <li><a href="https://vuex.vuejs.org/" rel="nofollow" rel="noopener" target="_blank">vuex</a></li>
+                                            <li><a href="https://getbootstrap.com/" rel="nofollow" rel="noopener" target="_blank">bootstrap</a></li>
+                                            <li><a href="https://www.postgresql.org/" rel="nofollow" rel="noopener" target="_blank">postgresql</a></li>
+                                            <li><a href="https://www.python.org/" rel="nofollow" rel="noopener" target="_blank">python</a></li>                                                                          
                                     	</ul>
                                   	</div>
                             	</div>
