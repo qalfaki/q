@@ -8,7 +8,6 @@ import qube from '../assets/imgs/qube.png';
 import angerComics from '../assets/imgs/angerCmics.png';
 
 const Portfolio = ()=> {
-    setTimeout(()=>{document.getElementsByClassName('App')[0].classList.remove('hidden')}, 0);
     return (
     	<div className="main-section portfolio-section">
         	<h1 className="main-title">Portfolio</h1>

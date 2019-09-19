@@ -2,7 +2,6 @@ import React from "react";
 import avatarImgSrc from '../assets/imgs/avatar.5.jpg'
 
 const Resume = (props)=> {
-    setTimeout(()=>{document.getElementsByClassName('App')[0].classList.add('hidden')}, 0)
     return (
     	<div className="cv">
     		<div className="cv-page">

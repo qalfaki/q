@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Skills = ()=> {
-    setTimeout(()=>{document.getElementsByClassName('App')[0].classList.remove('hidden')}, 0);
     return (
     	<div className="main-section skills-section">
     <h1 className="main-title">what can I offer you,</h1>
