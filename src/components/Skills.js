@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Skills = ()=> {
-    setTimeout(()=>{document.getElementsByClassName('App')[0].classList.remove('hidden')}, 0);
     return (
     	<div className="main-section skills-section">
     <h1 className="main-title">what can I offer you,</h1>
@@ -53,7 +52,7 @@ const Skills = ()=> {
       <li>good sense of design and UX,</li>
       <li>huge experience in almost all of the JS ecosystems, by having used in the past many libraries like Next.js, React,
       Redux, Redux-Observable,
-      RxJS, Backbone, jQuery, Lodash/Underscore and many else.
+      RxJS, Backbone, jQuery, Lodash/Underscore and many others.
     </li>
   </ul>
 
