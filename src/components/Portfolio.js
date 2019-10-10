@@ -36,7 +36,7 @@ const Portfolio = ()=> {
                         <div className="timeline_element-contents">
                             <div className="project-text">
                                 <a href="https://qube-d0bc0.firebaseapp.com" className="project-link">
-                                    <div className="project-title">Qube notes</div>
+                                    <div className="project-title">Qube Task manager</div>
                                         <div className="project-subtitle">slick and user friendly web application for taking notes/to-do lists</div>
                                 </a>
                                 <div className="project-description"><p><strong>Designed using Figma with simplicity & minimalism in mind</strong></p>
