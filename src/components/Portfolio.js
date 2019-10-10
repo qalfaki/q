@@ -29,6 +29,39 @@ const Portfolio = ()=> {
                             </div>
                         </div>
                     </li>
+
+                    <li className="timeline_element project">
+                        <div className="timeline_element-date">
+                            <time className="timeline_element-date-text">2019-2019</time>
+                        </div>
+                        <div className="timeline_element-contents">
+                            <div className="project-text">
+                                <a href="https://github.com/qalfaki/lru-cache" className="project-link">
+                                    <div className="project-title">Distributed LRU cache</div>
+                                        <div className="project-subtitle">realtime read/write distibuted least recently used cache</div>
+                                </a>
+                                <div className="project-description"><p><strong>Designed and implemented using queues and doble-linked list data structure for faster lookup operations with simplicity & maintainability in mind</strong></p>
+
+                                    <ul>
+                                        <li>Instances will sync data via the AMQP server published changes</li>
+                                        <li>Near realtime read/write functionality</li>
+                                        <li>Cache can expire</li>
+                                    </ul>
+                                </div>
+                                <div className="project-technologies">
+                                    <div  className="technologies-title">Technologies</div>
+                                        <ul className="tech-tags">
+                                            <li><a href="https://nodejs.org/en/docs/" rel="nofollow" rel="noopener" target="_blank">Nodejs</a></li>
+                                            <li><a href="https://reactjs.org/docs/hooks-reference.html" rel="nofollow" rel="noopener" target="_blank">AMQP</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="project-image"> <a href="https://github.com/qalfaki/lru-cache">
+                                    <img src="https://camo.githubusercontent.com/8d6197aa1cc26b5c7d67b686cd3a30a36c1651e6/68747470733a2f2f692e706f7374696d672e63632f5837736e386e6d772f47656f2d64697374726962757465642d6c72752d63616368652d312e706e67" alt="N/A"/>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
                     <li className="timeline_element project">
                         <div className="timeline_element-date">
                             <time className="timeline_element-date-text">2019-2019</time>
@@ -36,7 +69,7 @@ const Portfolio = ()=> {
                         <div className="timeline_element-contents">
                             <div className="project-text">
                                 <a href="https://qube-d0bc0.firebaseapp.com" className="project-link">
-                                    <div className="project-title">Qube notes</div>
+                                    <div className="project-title">Qube Task manager</div>
                                         <div className="project-subtitle">slick and user friendly web application for taking notes/to-do lists</div>
                                 </a>
                                 <div className="project-description"><p><strong>Designed using Figma with simplicity & minimalism in mind</strong></p>

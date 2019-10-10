@@ -6,10 +6,10 @@ import routes from './routes';
 const resume = routes.pop()
 
 const App = (props) =>{
+        // <Route exact {...resume} key={9082}/>
         return (
             <HashRouter>
                 <Switch>
-                <Route exact {...resume} key={9082}/>
                 <div className='App'>
                     <Sidebar/>
                     <main className="site-main">

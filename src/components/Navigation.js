@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom'
 const Navigation = ()=> {
     const [toggled, setToggle] = React.useState(false);
+    // <li><a href="https://medium.com/@qusai.alfaki" target="_blank">Personal blog</a></li>
     return (
         <nav className={toggled ? 'main-navigation extended': 'block main-navigation'}>
             <div className="navigation-extend-bar">
@@ -27,11 +28,9 @@ const Navigation = ()=> {
                   <ul className="side-nav">
                       <li className=""><Link to='/portfolio'>Portfolio</Link></li>
                       <li className=""><Link to='/skills'>Skills</Link></li>
-                      <li className=""><Link to='/contact'>Contact me</Link></li>
+                      <li className=""><Link to='/contact'>Contacts</Link></li>
                   </ul>
                   <ul className="side-nav">
-                      <li className=""><Link to="/resume">resume</Link></li>
-                      <li><a href="https://medium.com/@qusai.alfaki" target="_blank">Personal blog</a></li>
                   </ul>
             </div>
         </nav>
