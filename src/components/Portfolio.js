@@ -4,14 +4,17 @@ import tsunami from '../assets/imgs/Tsunami.png';
 import elitedesigns from '../assets/imgs/Elite.png';
 import kibanda from '../assets/imgs/kibanda.png';
 import lynkImg from '../assets/imgs/lynk.png';
+import calendar from '../assets/imgs/pro-calendar.png';
+import ayazona from '../assets/imgs/ayazona.png';
 import qube from '../assets/imgs/qube.png';
+import zeftt from '../assets/imgs/zeftt.png';
 import angerComics from '../assets/imgs/angerCmics.png';
 
 const Portfolio = ()=> {
     return (
     	<div className="main-section portfolio-section">
         	<h1 className="main-title">Portfolio</h1>
-            <p>See my works below. Unless explicitly stated otherwise, <strong>all their back-end and front-end parts were completely done by me. </strong>
+            <p>See my works below. Unless explicitly stated otherwise, <strong>most of their back-end and front-end parts were completely done by me. </strong>
             </p>
             <div className="timeline portfolio-timeline">
                 <ul>
@@ -23,13 +26,107 @@ const Portfolio = ()=> {
                             <div className="project-text">
                                 <div className="project-description">
                                     <strong>Currently open to co-operation on new and existing projects.</strong><br></br>
-                                        Looking for a freelancer or part/full time full-stack dev willing to join your team?<br></br>
+                                        Looking for a freelancer or part/full time software engineer willing to join your team?<br></br>
                                     <Link to="/contact">Contact me</Link>. I will answer you in ~24 hours.
                                  </div>
                             </div>
                         </div>
                     </li>
+                    <li className="timeline_element project">
+                        <div className="timeline_element-date">
+                            <time className="timeline_element-date-text">2020-2020</time>
+                        </div>
+                        <div className="timeline_element-contents">
+                            <div className="project-text">
+                                <a href="https://zeftt.com" className="project-link">
+                                    <div className="project-title">ZEFTT rides</div>
+                                        <div className="project-subtitle">Running late to work? We got you, download ZEFTT and co-share a ride with your friends.</div>
+                                </a>
+                                <div className="project-description">
+                                    <p><strong>built with react native</strong></p>
+                                    <ul>
+                                        <li>create and share rides with your friends</li>
+                                        <li>smooth and easy to use process</li>
+                                        <li>slick and modren UI/UX</li>
+                                    </ul>
+                                </div>
+                                <div className="project-technologies">
+                                    <div  className="technologies-title">Technologies</div>
+                                        <ul className="tech-tags">
+                                            <li><a href="https://nextjs.org/" rel="nofollow" rel="noopener" target="_blank">react native</a></li>
+                                            <li><a href="https://redux.js.org/" rel="nofollow" rel="noopener" target="_blank">Redux</a></li>
+                                            <li><a href="https://styled-components.com/" rel="nofollow" rel="noopener" target="_blank">expo</a></li>
+                                            <li><a href="https://www.figma.com/files" rel="nofollow" rel="noopener" target="_blank">Figma</a></li>
+                                            <li><a href="https://firebase.google.com/" rel="nofollow" rel="noopener" target="_blank">firebase</a></li>    
+                                            <li><a href="https://styled-components.com/" rel="nofollow" rel="noopener" target="_blank">Python</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="project-image"> <a href="https://zeftt.com/">
+                                    <img src={zeftt} alt="N/A"/>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li className="timeline_element project">
+                        <div className="timeline_element-date">
+                            <time className="timeline_element-date-text">2020-2020</time>
+                        </div>
+                        <div className="timeline_element-contents">
+                            <div className="project-text">
+                                <a href="https://staging.ayazona.com/" className="project-link">
+                                    <div className="project-title">Ayazona</div>
+                                        <div className="project-subtitle">Discover and Get Affordable Great Food Delivered</div>
+                                </a>
+                                <div className="project-description"><p><strong>built using nextjs for high availablity and great SEO</strong></p>
 
+                                    <ul>
+                                        <li>explore restaurants and cafes in your area</li>
+                                        <li>Order a delivery or a pickup</li>
+                                    </ul>
+                                </div>
+                                <div className="project-technologies">
+                                    <div  className="technologies-title">Technologies</div>
+                                        <ul className="tech-tags">
+                                            <li><a href="https://nextjs.org/" rel="nofollow" rel="noopener" target="_blank">Nextjs</a></li>
+                                            <li><a href="https://redux.js.org/" rel="nofollow" rel="noopener" target="_blank">Redux</a></li>
+                                            <li><a href="https://styled-components.com/" rel="nofollow" rel="noopener" target="_blank">styled-components</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="project-image"> <a href="https://staging.ayazona.com/">
+                                    <img src={ayazona} alt="N/A"/>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li className="timeline_element project">
+                        <div className="timeline_element-date">
+                            <time className="timeline_element-date-text">2020-2020</time>
+                        </div>
+                        <div className="timeline_element-contents">
+                            <div className="project-text">
+                                <a className="project-link">
+                                    <div className="project-title">Realtime Personal calendar</div>
+                                        <div className="project-subtitle">calendar interface for managing time and day to day engagements, an account can be used by multiple users. the realtime is used keep the data in sync and maintain data integrity</div>
+                                </a>
+                                <div className="project-description"><p><strong>a calendar library built in a modular fashion for ease of integration and maintainability</strong></p>
+                                </div>
+                                <div className="project-technologies">
+                                    <div  className="technologies-title">Technologies</div>
+                                        <ul className="tech-tags">
+                                            <li><a href="https://nodejs.org/en/docs/" rel="nofollow" rel="noopener" target="_blank">Python</a></li>
+                                            <li><a href="https://reactjs.org/docs/hooks-reference.html" rel="nofollow" rel="noopener" target="_blank">Vuex</a></li>
+                                            <li><a href="https://reactjs.org/docs/hooks-reference.html" rel="nofollow" rel="noopener" target="_blank">Vuejs</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="project-image"> <a>
+                                    <img src={calendar} alt="N/A"/>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
                     <li className="timeline_element project">
                         <div className="timeline_element-date">
                             <time className="timeline_element-date-text">2019-2019</time>
@@ -51,8 +148,8 @@ const Portfolio = ()=> {
                                 <div className="project-technologies">
                                     <div  className="technologies-title">Technologies</div>
                                         <ul className="tech-tags">
-                                            <li><a href="https://nodejs.org/en/docs/" rel="nofollow" rel="noopener" target="_blank">Nodejs</a></li>
-                                            <li><a href="https://reactjs.org/docs/hooks-reference.html" rel="nofollow" rel="noopener" target="_blank">AMQP</a></li>
+                                            <li><a href="https://nodejs.org/en/docs/" rel="nofollow" rel="noopener" target="_blank">Nextjs</a></li>
+                                            <li><a href="https://reactjs.org/docs/hooks-reference.html" rel="nofollow" rel="noopener" target="_blank">styled-components</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -78,7 +175,11 @@ const Portfolio = ()=> {
                                         <li>UI/UX built using react functional components, builtin hooks and custom hooks for relatively more complex functionaility like validation etc.</li>
                                         <li>Integrates standard key bindings eg. <code>CTRL+s</code> for saving</li>
                                         <li>full support for user authentication using firebase auth API</li>
-
+                                        <li>Test account</li>
+                                        <ul>
+                                            <li>email: syia@qube.com</li>
+                                            <li>password: testingaccount</li>
+                                        </ul>
                                     </ul>
                                 </div>
                                 <div className="project-technologies">
@@ -87,7 +188,7 @@ const Portfolio = ()=> {
                                             <li><a href="https://reactjs.org/" rel="nofollow" rel="noopener" target="_blank">React</a></li>
                                             <li><a href="https://reactjs.org/docs/hooks-reference.html" rel="nofollow" rel="noopener" target="_blank">React hooks</a></li>  
                                             <li><a href="https://www.figma.com/files" rel="nofollow" rel="noopener" target="_blank">Figma</a></li>
-                                            <li><a href="https://firebase.google.com/" rel="nofollow" rel="noopener" target="_blank">firebase</a></li>                                                        
+                                            <li><a href="https://firebase.google.com/" rel="nofollow" rel="noopener" target="_blank">firebase</a></li>
                                         </ul>
                                     </div>
                                 </div>

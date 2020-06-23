@@ -7,8 +7,8 @@ const Home = ()=> {
         	<div className="home-section-inner">
                 <div className="home-heading"> Hi, I'm Qusai, </div>
                     <h2 className="home-subheading">
-                        a web developer specialized&nbsp;in<br></br>
-                        <strong>front-end and back-end web development</strong>.
+                        a software engineer specialized&nbsp;in<br></br>
+                        <strong>front-end and back-end development</strong>.
                     </h2>
                     <div className="home-location">
                         Currently located in <span className="location-name">

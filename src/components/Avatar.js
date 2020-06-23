@@ -9,7 +9,7 @@ const Avatar = ()=> {
             </div>
             <div className="person-content">
                 <h1 className="person-title">Qusai Alfaki</h1>
-                <h2 className="person-subtitle">Full-stack Web developer</h2>
+                <h2 className="person-subtitle">Software Engineer</h2>
             </div>
       </Link>
     )
