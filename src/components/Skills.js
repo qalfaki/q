@@ -6,11 +6,11 @@ const Skills = ()=> {
     	<div className="main-section skills-section">
     <h1 className="main-title">what can I offer you,</h1>
     <p>
-      <strong>A <span className="headers">Software Engineer</span> with over <span className="headers">4 years of experience</span>.</strong>
+      <strong>A <span className="headers">Software Engineer</span> with over <span className="headers">5 years of experience</span>.</strong>
     </p>
     <p>
       <strong>I have maintained, developed and launched <Link replace to="/portfolio" className="nocolor">multiple projects</Link> from scratch</strong>, carrying the development of its' back-end and front-end codebases.</p>
-    <p>My current toolset includes <strong>python & Django</strong> flask, sqlalchemy, Django, <strong>vuejs/vuex </strong>, Redux, backbonejs, Docker and all the other various frameworks, libraries and
+    <p>My current toolset includes <strong>Python & Django</strong> Flask, Sqlalchemy, Django, <strong>Vuejs/Vuex, React/Redux</strong>, Docker and all the other various frameworks, libraries and
     technologies related to them.</p>
 
     <p><strong>I can help you with all the sides of your project:</strong></p>
@@ -24,9 +24,9 @@ const Skills = ()=> {
         <li>leading, launching and monitoring the project.</li>
   </ul>
 
-  <p>
+  {/* <p>
       <em>Call me a Swiss Army Knife in terms of web development.</em>
-  </p>
+  </p> */}
 
   <hr></hr>
 
@@ -36,7 +36,7 @@ const Skills = ()=> {
   </h2>
 
   <p>
-      <strong>I specialize in applications written in Vuejs, React and Backbonejs.</strong> Recently I became also a huge fan of on way data
+      <strong>I specialize in applications written in Vuejs, React and Nextjs.</strong> Recently I became also a huge fan of on way data
       flow and Redux-like architecture and also typed languages, e.g.
       <a href="https://www.typescriptlang.org/"
       rel="noopener" target="_blank" rel="noopener">TypeScript</a>.
@@ -52,7 +52,7 @@ const Skills = ()=> {
       <li>good sense of design and UX,</li>
       <li>huge experience in almost all of the JS ecosystems, by having used in the past many libraries like Next.js, React,
       Redux, Redux-Observable,
-      RxJS, Backbone, jQuery, Lodash/Underscore and many others.
+      RxJS, jQuery, Lodash/Underscore and many others.
     </li>
   </ul>
 
