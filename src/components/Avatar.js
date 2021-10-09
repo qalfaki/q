@@ -1,5 +1,5 @@
 import React from 'react';
-import avatarImgSrc from '../assets/imgs/avatar.5.jpg'
+import avatarImgSrc from '../assets/imgs/avatar.5.png'
 import { Link } from 'react-router-dom';
 const Avatar = ()=> {
     return (
@@ -9,7 +9,7 @@ const Avatar = ()=> {
             </div>
             <div className="person-content">
                 <h1 className="person-title">Qusai Alfaki</h1>
-                <h2 className="person-subtitle">Software Engineer</h2>
+                <h2 className="person-subtitle">Senior Software Engineer</h2>
             </div>
       </Link>
     )

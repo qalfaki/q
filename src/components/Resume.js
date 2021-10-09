@@ -1,5 +1,5 @@
 import React from "react";
-import avatarImgSrc from '../assets/imgs/avatar.5.jpg'
+import avatarImgSrc from '../assets/imgs/avatar.5.png'
 
 const Resume = (props)=> {
     return (

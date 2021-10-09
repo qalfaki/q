@@ -7,12 +7,12 @@ const Home = ()=> {
         	<div className="home-section-inner">
                 <div className="home-heading"> Hi, I'm Qusai, </div>
                     <h2 className="home-subheading">
-                        a software engineer specialized&nbsp;in<br></br>
+                        a senior software engineer specialized&nbsp;in<br></br>
                         <strong>front-end and back-end development</strong>.
                     </h2>
                     <div className="home-location">
                         Currently located in <span className="location-name">
-                        <i className="fa fa-map-marker"></i> Nairobi, Kenya</span>.
+                        <i className="fa fa-map-marker"></i> Kigali, Rwanda</span>.
                     </div>
                     <div className="home-buttons">
                         <Link replace to="/portfolio" className="button button-outline button-white">Portfolio</Link><br></br>
